@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>To-Do List</h1>
+        <form id="task-form">
+            <input id="task-input" type="text" placeholder="Добавить задачу...">
+            <button>Добавить задачу</button>
+        </form>
+
+        <ul id="task-container"></ul>
+
+        <div id="filters-container">
+            <button id="all-filter">Все задачи</button>
+            <button id="completed-filter">Выполненные задачи</button>
+            <button id="uncompleted-filter">Невыполненные задачи</button>
+        </div>
+    </main>
+<script src="script.js"></script>
+</body>
+</html>
